@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NotepadFX.jnlp">
+  <information>
+    <title>NotepadFX</title>
+    <vendor>Radwa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="NotepadFX.jar" size="8761" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="notepadfx.NotepadFX"  name="NotepadFX" />
+  <update check="always"/>
+</jnlp>
